@@ -6,3 +6,21 @@
   2. Business Logic is in the --->CreditingServiceImpl
   
   code created: Aarathi Kandregula
+
+
+PostMan parameters to be called
+
+method : Post
+url:http://localhost:8080/calculateCredit
+Request:{
+    "CustomerPurchaseInformation": {
+        "CustomerInformation": [
+            {
+                "customerId": "123",
+                "firstMonthPurchase": [100,250,30],
+                "secondMonthPurchase":[100,250,30],
+                "thirdMonthPurchase": [100,250,30]
+            }
+        ]
+    }
+}
