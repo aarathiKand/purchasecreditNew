@@ -12,6 +12,9 @@ PostMan parameters to be called
 
 method : Post
 url:http://localhost:8080/calculateCredit
+
+
+
 Request:{
     "CustomerPurchaseInformation": {
         "CustomerInformation": [
@@ -24,3 +27,8 @@ Request:{
         ]
     }
 }
+
+Added image Link to be used to Call in Postman
+
+
+![image](https://github.com/aarathiKand/purchasecreditNew/assets/150388953/4dc364b6-ee94-414a-ab3c-35c787d69a3f)
